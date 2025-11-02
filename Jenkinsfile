@@ -9,7 +9,7 @@ node {
                 withCredentials([usernamePassword(credentialsId: 'github', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
                     sh '''
                         git config user.email "vij1542044@gmail.com"
-                        git config user.name "vamsi"
+                        git config user.name "20481A04K2"
 
                         echo "===== Before Update ====="
                         cat deployment.yaml
